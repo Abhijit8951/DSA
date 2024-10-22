@@ -6,7 +6,7 @@ void selectionSort(int arr[], int n){
     for(int i=0;i<n-1;i++){
         int smallestIdx = i;
         for(int j=i+1;j<n;j++){
-            if(arr[j] < arr[smallestIdx]){
+            if(arr[j] < arr[smallestIdx]){   // Use if(arr[j] > arr[smallestIdx]) in case of descending order
                 smallestIdx = j;
             }
         }
