@@ -7,6 +7,11 @@ int main(){
     cout << "enter a number: ";
     cin >> num;
 
+    if (num == 0){
+        cout << 1 << endl;
+        return 0;
+    }
+
     int dupl = num;
     int mask = 0;
     while(dupl != 0){
@@ -14,7 +19,7 @@ int main(){
         dupl = dupl >> 1;
     }
     int ans = (~num) & mask;
-    cout << ans << endl;
+    cout << "Complement: " << ans << endl;
 
     return 0;
 }
