@@ -28,3 +28,14 @@ This space is dedicated to solving and practicing problems related to **Data Str
 1. Clone this repository:  
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd your-repo-name
+
+3. Compile and run any file:
+   ```bash
+   g++ filename.cpp -o output && ./output
+
+
+Replace `your-username` and `your-repo-name` with your GitHub username and the repository's name. Save this code as a `README.md` file in the root of your repository.
