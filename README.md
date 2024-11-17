@@ -41,9 +41,9 @@ Replace `your-username` and `your-repo-name` with your GitHub username and the r
 
 ## 🛠️ Contributions
 
-- **Fixing bugs or optimizing code
-- **Sharing alternaative approaches
+- Fixing bugs or optimizing code
+- Sharing alternaative approaches
 
 ## 🌟 Acknowledgments
 
-- **Inspired by the passion for problem-solving and algorithmic challenges.
+- Inspired by the passion for problem-solving and algorithmic challenges.
