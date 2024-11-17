@@ -6,12 +6,11 @@ This space is dedicated to solving and practicing problems related to **Data Str
 ## 📜 Contents
 
 - Array Manipulations  
+- Strings
 - Sorting and Searching Algorithms  
-- Linked Lists, Stacks, and Queues  
-- Trees and Graphs  
-- Dynamic Programming  
-- Recursion  
-- Advanced Topics (Trie, Segment Tree, etc.)  
+- Finding duplicates & missing elements
+- Binary to Decimal & Decimal to Binary
+- 2sum, 3sum & 4sum
 
 ## 🔧 Tech Stack
 
@@ -39,3 +38,12 @@ This space is dedicated to solving and practicing problems related to **Data Str
 
 
 Replace `your-username` and `your-repo-name` with your GitHub username and the repository's name. Save this code as a `README.md` file in the root of your repository.
+
+## 🛠️ Contributions
+
+- **Fixing bugs or optimizing code
+- **Sharing alternaative approaches
+
+## 🌟 Acknowledgments
+
+- **Inspired by the passion for problem-solving and algorithmic challenges.
