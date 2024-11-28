@@ -14,17 +14,16 @@ bool isPossible(vector<int> &arr, int n, int m, int MaxAllowedTime){
             time=arr[i];
         }
     }
-    return painters <= m;
+    return painters > m ? false : true;
 }
 
 int minTimeToPaint(vector<int> &arr, int n, int m){
-    int sum=0, maxVal=INT_MIN;
+    int sum=0;
     for(int i=0;i<n;i++){
         sum += arr[i];
-        maxVal = max(maxVal, arr[i]);
     }
 
-    int st=maxVal, end=sum, ans=-1;
+    int st=0, end=sum, ans=-1;
 
     while(st <= end){
         int mid = st + (end-st)/2;
