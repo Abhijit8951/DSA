@@ -8,6 +8,7 @@ int main(){
     for(int i=1;i<vec.size();i++){
         if(vec[i] == vec[i-1]){
             vec.erase(vec.begin() + i);
+            i--;
         }
     }
 
