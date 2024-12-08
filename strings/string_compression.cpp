@@ -19,16 +19,18 @@ int main(){
             chars[idx++] = ch;
             string str = to_string(count);
             for(char dig : str){
-                chars[idx++] = string(1, dig);
+                chars[idx++] = dig;
             }
         }
         i--;
     }
     chars.resize(idx);
+    int size = chars.size();
     for (string ch : chars) {
         cout << ch;
     }
     cout << endl;
+    cout << "Size of the new array is: " << size << endl;
 
 
     return 0;
