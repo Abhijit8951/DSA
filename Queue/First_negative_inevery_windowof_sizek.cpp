@@ -31,7 +31,7 @@ vector<int> FirstNegativeInteger(vector<int>& arr, int k) {
         ans.push_back(0);
     }
     
-    for(int i = k; i <= n; i++) {
+    for(int i = k; i < n; i++) {
         if(!dq.empty() && i - dq.front() >= k) {
             dq.pop_front();
         }
